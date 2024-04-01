@@ -1,0 +1,49 @@
+.fixed {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+	background-color: #746d69;
+	color: rgb(230, 230, 230);
+	box-shadow: 0 1px 80px 0 rgba(0, 0, 0, 0.4);
+
+	.logo {
+		fill: burlywood;
+	}
+	.logo:hover {
+		fill: white;
+	}
+
+	.list-desktop li {
+		font-size: 1rem;
+		color: #b6b6b6;
+	}
+
+	.list-desktop li:hover {
+		color: white;
+	}
+
+	.list-mobile li {
+		color: #d1d0d0;
+	}
+
+	.list-mobile li:hover {
+		color: white;
+	}
+
+	.socSlide {
+		box-shadow: 0 1px 80px 0 rgba(0, 0, 0, 0);
+		background-color: rgba(116, 109, 105);
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		.linked {
+			transition: all 0.3s ease;
+			padding: 0 20px;
+		}
+		.linked:hover {
+			margin-left: -10px;
+		}
+	}
+}
