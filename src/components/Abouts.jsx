@@ -1,18 +1,18 @@
 const Abouts = () => {
 	return (
 		<div
-			name="about"
+			name="About"
 			className="w-full h-screen bg-gray-800 z-40 text-gray-300">
 			<div className="max-w-[1300px] mx-auto flex flex-col justify-center items-center w-full h-full">
 				<div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-					<div className="sm: text-right pb-8 pl-4">
+					<div className="sm:text-right pb-4 pl-4">
 						<p className="text-4xl font-bold inline-block border-b-4 border-[#ffd700]">
 							About
 						</p>
 					</div>
 					<div></div>
 				</div>
-				<div className="max-w[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mb-12">
+				<div className="max-w[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mb-4">
 					<div className="sm:text-right text-3xl font-bold ">
 						<p>Hi. My name is Hanantyo Dian Utomo, you can call me Hanang!</p>
 					</div>
@@ -40,7 +40,7 @@ const Abouts = () => {
 										/>
 									</div>
 									<div>
-										<p className="mt-4 text-lg font-semibold">
+										<p className=" text-lg font-semibold">
 											Gadjah Mada University
 										</p>
 										<p className=" font-semibold">Mechanical Engineering</p>
@@ -67,7 +67,7 @@ const Abouts = () => {
 							Previous Work Experience
 						</p>
 						<div className="w-full">
-							<ul className="flex flex-col mt-6">
+							<ul className="flex flex-col mt-2">
 								<li className="flex justify-between ">
 									<div>
 										<p className="mt-4 text-lg font-semibold">

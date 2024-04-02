@@ -1,5 +1,6 @@
 import { HiArrowNarrowRight, HiArrowNarrowLeft } from "react-icons/hi";
 // import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Home = () => {
 	// const [slide1, setSlide1] = useState(false);
@@ -23,7 +24,7 @@ const Home = () => {
 					</p>
 				</div>
 				<div className="arrowTo flex justify-between mt-[40px]">
-					<a>
+					<Link to="About" smooth={true} duration={500}>
 						<button className="group px-6 py-3 border-solid border-2 border-black rounded-lg my-[20px] flex flex-col items-start hover:text-white font-semibold duration-300 hover:bg-[#746d69] hover:border-white">
 							Let me introduce you about myself!
 							<span className="group-hover:rotate-90 duration-100">
@@ -33,15 +34,15 @@ const Home = () => {
 								/>
 							</span>
 						</button>
-					</a>
-					<a>
+					</Link>
+					<Link to="Skill" smooth={true} duration={500}>
 						<button className="group px-6 py-3 border-solid border-2 border-black rounded-lg my-[20px] flex flex-col items-end hover:text-white font-semibold duration-300 hover:bg-[#746d69] hover:border-white">
 							Straight to know my Experiences!
 							<span className="group-hover:rotate-[-90deg] duration-100">
 								<HiArrowNarrowLeft size={25} />
 							</span>
 						</button>
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>

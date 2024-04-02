@@ -8,6 +8,7 @@ import { SocMed } from "./data.jsx";
 // import {BsFillPersonLinesFill} from "react-icons/bs"
 // import { Hammenu, Close, LinkedIn } from "../assets/all-Icons";
 // import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -42,9 +43,21 @@ const Navbar = () => {
 			</div>
 			{/* Menu */}
 			<ul className="list-desktop hidden md:flex gap-3">
-				<li>About</li>
-				<li>Experience</li>
-				<li>Contact</li>
+				<li>
+					<Link to="About" smooth={true} duration={500}>
+						About
+					</Link>
+				</li>
+				<li>
+					<Link to="Skill" smooth={true} duration={500}>
+						Experience
+					</Link>
+				</li>
+				<li>
+					<Link to="Contact" smooth={true} duration={500}>
+						Contact
+					</Link>
+				</li>
 			</ul>
 			{/* Hamburger */}
 			<div onClick={handleClick} className="logo md:hidden z-10 cursor-pointer">
