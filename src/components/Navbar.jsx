@@ -15,10 +15,11 @@ const Navbar = () => {
 
 	console.log(SocMed);
 	const LinkSocMed = SocMed.map((index) => {
-		const bgColor = `bg-${index.backgroundColor}`;
+		const bgColor = `${index.backgroundColor}`;
+		console.log(bgColor);
 		return (
 			<li
-				className={`linked w-[215px] h-[80px] flex justify-around items-center ml-[-150px] rounded-[10px] hover:${bgColor}`}
+				className={`linked w-[172px] h-[70px] flex justify-around items-center ml-[-112px] rounded-[10px] bg-[#746d69]`}
 				key={index.id}>
 				<a
 					href={index.link}
@@ -30,7 +31,7 @@ const Navbar = () => {
 	});
 
 	return (
-		<div className="fixed">
+		<div className="fixed z-50">
 			<div>
 				<img
 					className="px-8"
@@ -53,7 +54,7 @@ const Navbar = () => {
 			<ul
 				className={
 					nav
-						? "list-mobile absolute top-0 left-0 w-full h-screen bg-[#746d69] flex flex-col justify-center items-center"
+						? "list-mobile absolute top-0 left-0 w-full h-screen md:hidden flex flex-col justify-center items-center "
 						: "hidden"
 				}>
 				<li className="py-6 text-4xl">About</li>
@@ -62,7 +63,7 @@ const Navbar = () => {
 			</ul>
 			{/* Social Icons */}
 			{SocMed.length > 0 && (
-				<div className="socSlide hidden md:flex fixed flex-row top-[35%] left-[0] pl-0 w-[60px] h-[400px]">
+				<div className="socSlide hidden md:flex fixed flex-row top-[35%] left-[0] pl-0 w-[60px] h-[350px]">
 					<ul>{LinkSocMed}</ul>
 				</div>
 			)}

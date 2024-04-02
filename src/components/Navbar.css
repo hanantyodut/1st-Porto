@@ -16,9 +16,14 @@
 		fill: white;
 	}
 
+	.list-mobile {
+		background-color: #746d69d5;
+	}
+
 	.list-desktop li {
 		font-size: 1rem;
 		color: #b6b6b6;
+		transition: all 0.3s ease;
 	}
 
 	.list-desktop li:hover {
@@ -27,6 +32,7 @@
 
 	.list-mobile li {
 		color: #d1d0d0;
+		transition: all 0.3s ease;
 	}
 
 	.list-mobile li:hover {
@@ -35,7 +41,7 @@
 
 	.socSlide {
 		box-shadow: 0 1px 80px 0 rgba(0, 0, 0, 0);
-		background-color: rgba(116, 109, 105);
+		background-color: #746d69;
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
 		.linked {
