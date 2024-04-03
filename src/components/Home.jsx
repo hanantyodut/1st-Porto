@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<div name="home" className="w-full h-screen z-30 bg-[#ad9a85] ">
 			{/* Greetings */}
-			<div className="greet max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full bg-">
+			<div className="greet max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
 				<p className="text-2xl font-semibold text-[#ffd700] ">Hi! my name is</p>
 				<h1 className="name text-8xl text-white mb-[10px] font-bold">
 					Hanantyo Dian Utomo
