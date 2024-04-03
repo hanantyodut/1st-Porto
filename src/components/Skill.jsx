@@ -1,7 +1,7 @@
-// import HTML from "/public/html.png";
-// import JavaScript from "/public/javascript.png";
-// import ReactImg from "/public/react.png";
-// import { Chores } from "/public/chores.jpeg";
+// import HTML from "/Images/html.png";
+// import JavaScript from "/Images/javascript.png";
+// import ReactImg from "/Images/react.png";
+// import { Chores } from "/Images/chores.jpeg";
 
 const Skill = () => {
 	return (
@@ -23,7 +23,7 @@ const Skill = () => {
 					<div className="w-full grid sm:grid-cols-4 grid-cols-2 gap-8 text-center py-4">
 						<div className="group shadow-md shadow-[#040c16] rounded-xl hover:scale-110 duration-500 bg-[#75604b] h-[8rem]">
 							<img
-								src="/public/javascript.png"
+								src="/Images/javascript.png"
 								className="w-[3.5rem] mx-auto pt-4"
 							/>
 							<p className="pt-3 font-semibold group-hover:text-[#ffd700] text-lg pb-3 duration-100 ">
@@ -31,20 +31,20 @@ const Skill = () => {
 							</p>
 						</div>
 						<div className="group shadow-md shadow-[#040c16] rounded-xl hover:scale-110 duration-500 bg-[#75604b] h-[8rem]">
-							<img src="/public/html.png" className="w-[3.5rem] mx-auto pt-4" />
+							<img src="/Images/html.png" className="w-[3.5rem] mx-auto pt-4" />
 							<p className="pt-3 font-semibold group-hover:text-[#f06529] text-lg pb-3 duration-100">
 								HTML
 							</p>
 						</div>
 						<div className="group shadow-md shadow-[#040c16] rounded-xl hover:scale-110 duration-500 bg-[#75604b] h-[8rem]">
-							<img src="/public/css.png" className="w-[3.5rem] mx-auto pt-4" />
+							<img src="/Images/css.png" className="w-[3.5rem] mx-auto pt-4" />
 							<p className="pt-3 font-semibold group-hover:text-[#2965f1] text-lg pb-3 duration-100">
 								CSS
 							</p>
 						</div>
 						<div className="group shadow-md shadow-[#040c16] rounded-xl hover:scale-110 duration-500 bg-[#75604b] h-[8rem]">
 							<img
-								src="/public/react.png"
+								src="/Images/react.png"
 								className="w-[3.5rem] mx-auto pt-4"
 							/>
 							<p className="pt-3 font-semibold group-hover:text-[#61dbfb] text-lg pb-3 duration-100">
@@ -66,7 +66,7 @@ const Skill = () => {
 					<div className="grid sm:auto-cols-fr md:grid-cols-3 gap-4 pt-6 ">
 						{/* PROJECTS CARDS */}
 						<div
-							style={{ backgroundImage: "url(/public/chores.jpeg)" }}
+							style={{ backgroundImage: "url(/Images/chores.jpeg)" }}
 							className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div ">
 							{/* Hover Effects */}
 
@@ -89,7 +89,7 @@ const Skill = () => {
 							</div>
 						</div>
 						<div
-							style={{ backgroundImage: "url(/public/date-calc.jpeg)" }}
+							style={{ backgroundImage: "url(/Images/date-calc.jpeg)" }}
 							className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div ">
 							{/* Hover Effects */}
 
@@ -112,7 +112,7 @@ const Skill = () => {
 							</div>
 						</div>
 						<div
-							style={{ backgroundImage: "url(/public/pizza.jpeg)" }}
+							style={{ backgroundImage: "url(/Images/pizza.jpeg)" }}
 							className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center ">
 							{/* Hover Effects */}
 
