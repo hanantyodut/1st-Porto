@@ -34,7 +34,7 @@ const Abouts = () => {
 							<ul className="flex flex-col mt-6">
 								<li className="flex justify-between">
 									<div className="ml-[36px]">
-										<img src="/Public/colored-ugm.png" className="w-[90px]" />
+										<img src="/Images/colored-ugm.png" className="w-[90px]" />
 									</div>
 									<div>
 										<p className=" text-lg font-semibold">
@@ -46,7 +46,7 @@ const Abouts = () => {
 								</li>
 								<li className="flex justify-between mt-4">
 									<div className="ml-8">
-										<img src="/Public/logo-81.jpg" className="w-[100px]" />
+										<img src="/Images/logo-81.jpg" className="w-[100px]" />
 									</div>
 									<div>
 										<p className="mt-4 text-lg font-semibold">
@@ -77,7 +77,7 @@ const Abouts = () => {
 									</div>
 									<div className="ml-8">
 										<img
-											src="/Public/logo-elsewedy.jpg"
+											src="/Images/logo-elsewedy.jpg"
 											className="w-[130px] mt-4"
 										/>
 									</div>
@@ -92,7 +92,7 @@ const Abouts = () => {
 									</div>
 									<div className="ml-[36px]">
 										<img
-											src="/Public/ohgishi-2.png"
+											src="/Images/ohgishi-2.png"
 											className="w-[100px] pt-4 mr-4"
 										/>
 									</div>
