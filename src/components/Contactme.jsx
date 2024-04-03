@@ -2,7 +2,7 @@ const Contactme = () => {
 	return (
 		<div
 			name="Contact"
-			className="w-full h-screen bg-gray-800 flex justify-center items-center ">
+			className="w-full h-screen bg-gray-800 flex justify-center items-center p-4">
 			<form
 				method="POST"
 				action="https://getform.io/f/eapdneza"

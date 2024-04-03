@@ -82,7 +82,7 @@ const Abouts = () => {
 										/>
 									</div>
 								</li>
-								<li className="flex justify-between mt-4">
+								<li className="flex justify-between mt-9">
 									<div>
 										<p className="mt-4 text-lg font-semibold">
 											Ohgishi Indonesia
