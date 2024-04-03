@@ -15,7 +15,7 @@ const Home = () => {
 				</h1>
 				<div className="flex justify-between text-gray-700">
 					<h2 className="text-3xl font-bold text-[#4c505d] mt-[20px]">
-						Im a wannabe Front End Developer! hopefully.
+						Im a web development student and hopefully next Front End Developer.
 					</h2>
 					<p className="text-end pt-9 text-gray-800 ml-20">
 						Currently Im still learning at Purwadhika, but hopefully I can get
