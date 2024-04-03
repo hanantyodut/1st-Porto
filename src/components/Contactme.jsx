@@ -9,7 +9,7 @@ const Contactme = () => {
 				className="flex flex-col max-w-[600px] w-full items-center">
 				<div className="pb-8 w-full">
 					<p className="text-4xl font-bold- inline border-b-4 border-white text-gray-300">
-						Contact
+						Contact me right here
 					</p>
 					<p className="text-gray-300 py-4">Submit your message below!</p>
 				</div>
