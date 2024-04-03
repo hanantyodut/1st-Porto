@@ -12,14 +12,14 @@ export const SocMed = [
 	},
 	{
 		id: 2,
-		link: "www.linkedin.com/in/hanantyodian",
+		link: "https://www.instagram.com/hanantyodut/",
 		socialMedia: "Instagram",
 		logo: <FaInstagram size={35} />,
 		backgroundColor: ["#962fdf"],
 	},
 	{
 		id: 3,
-		link: "www.linkedin.com/in/hanantyodian",
+		link: "https://github.com/hanantyodut",
 		socialMedia: "GitHub",
 		logo: <FaGithub size={35} />,
 		backgroundColor: ["#2b3137"],
