@@ -24,7 +24,8 @@ const Navbar = () => {
 				key={index.id}>
 				<a
 					href={index.link}
-					className="text-[1.2rem] flex flex-row items-center justify-between w-full">
+					className="text-[1.2rem] flex flex-row items-center justify-between w-full"
+					target="_blank">
 					{index.socialMedia} {index.logo}
 				</a>
 			</li>

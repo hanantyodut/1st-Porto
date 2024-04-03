@@ -75,16 +75,18 @@ const Skill = () => {
 									Chores-To-Do-List
 								</span>
 								<div className="pt-8 text-center">
-									<a href="/">
+									<a
+										href="https://chores-to-do-list-project-update.vercel.app"
+										target="_blank">
 										<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
 											Demo
 										</button>
 									</a>
-									<a href="/">
-										{/* <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
+									{/* <a href="/">
+										 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
 											Code
-										</button> */}
-									</a>
+										</button> 
+									</a> */}
 								</div>
 							</div>
 						</div>
@@ -98,16 +100,16 @@ const Skill = () => {
 									Date Calculator
 								</span>
 								<div className="pt-8 text-center">
-									<a href="/">
+									<a href="/" target="_blank">
 										<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
 											Demo
 										</button>
 									</a>
-									<a href="/">
-										{/* <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
+									{/* <a href="/">
+										 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
 											Code
-										</button> */}
-									</a>
+										</button> 
+									</a> */}
 								</div>
 							</div>
 						</div>
@@ -121,16 +123,16 @@ const Skill = () => {
 									Pizza-Menu
 								</span>
 								<div className="pt-8 text-center">
-									<a href="/">
+									<a href="/" target="_blank">
 										<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
 											Demo
 										</button>
 									</a>
-									<a href="/">
-										{/* <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
+									{/* <a href="/">
+										 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-300">
 											Code
-										</button> */}
-									</a>
+										</button> 
+									</a> */}
 								</div>
 							</div>
 						</div>
